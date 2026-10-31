@@ -1,7 +1,7 @@
 # Assignment 6. jQuery (Selectors, Effects, Animations)
 
-Student: Your Name
-Group: Your Group
+Student: Borovikov Vyacheslav
+Group: SE-2528
 
 ## Description
 Website with jQuery tasks: selectors, effects, DOM manipulation,
@@ -21,4 +21,3 @@ animations and a mini project (accordion menu).
 4. Open the console (F12) to see the output of Task 0
 
 ## Live site
-https://your-username.github.io/your-repo/
