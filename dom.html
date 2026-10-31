@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 5-7 - DOM Manipulation</title>
+</head>
+<body>
+
+    <p>
+        <a href="index.html">Task 0-1</a> |
+        <a href="effects.html">Task 2-4</a> |
+        <a href="dom.html">Task 5-7</a> |
+        <a href="animation.html">Task 8-10</a> |
+        <a href="project.html">Task 11</a>
+    </p>
+    <hr>
+
+    <h2>Task 5. Add and Remove Elements</h2>
+    <ul id="list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+    <button id="appendBtn">Add Item (append)</button>
+    <button id="prependBtn">Add Item (prepend)</button>
+    <button id="removeBtn">Remove Item</button>
+
+    <hr>
+
+    <h2>Task 6. Modifying Attributes</h2>
+    <img id="pic" src="https://picsum.photos/id/10/200/200" alt="Image">
+    <br>
+    <button id="srcBtn">Change image src</button>
+    <br><br>
+    <a id="link" href="https://www.google.com" target="_blank">Link</a>
+    <br>
+    <button id="hrefBtn">Change link href</button>
+
+    <hr>
+
+    <h2>Task 7. Form Interaction</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email">
+    </form>
+    <p>Name: <span id="outName"></span></p>
+    <p>Email: <span id="outEmail"></span></p>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="dom.js"></script>
+</body>
+</html>
